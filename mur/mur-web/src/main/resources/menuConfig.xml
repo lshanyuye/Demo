@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menuItems>
+	<menuItem id="org" title="组织管理" icon="" seq="1">
+		<page id="consignor " title="货主资料" url="" seq="1"></page>
+		<page id="customer" title="客户资料" url="" seq="1"></page>
+	</menuItem>
+	<menuItem id="warhouse" title="仓库管理" icon="" seq="2">
+		<page id="warhouseInfo " title="仓库资料" url="" seq="1"></page>
+		<page id="worker" title="工作人员" url="" seq="2"></page>
+	</menuItem>
+	<menuItem id="goods" title="货品管理" icon="" seq="3">
+		<page id="goodsInfo " title="货品资料" url="" seq="1"></page>
+	</menuItem>
+	<menuItem id="system" title="系统管理" icon="" seq="4">
+		<page id="userManager" title="用户管理" url="user/index.do" seq="1">
+			<button id="addUser" title="新增" seq="1"></button>
+			<button id="editUser" title="修改" seq="2"></button>
+		</page>
+		<page id="roleManager" title="角色管理" url="role/index.do" seq="2"></page>
+		<page id="enumManager" title="枚举管理" url="enum/index.do" seq="3"></page>
+		<page id="permissionManager" title="系统权限" url="permission/index.do" seq="4"></page>
+	</menuItem>
+</menuItems>

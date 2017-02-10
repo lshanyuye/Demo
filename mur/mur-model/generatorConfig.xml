@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+	<classPathEntry location="D:\dev\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar"/>
+	<context id="context1">
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://localhost:3306/demo" userId="root"
+			password="root" />
+		<javaModelGenerator targetPackage="com.mur.model.enumrate"
+			targetProject="mur-model" />
+		<sqlMapGenerator targetPackage="com.mur.mapper.enumrate"
+			targetProject="mur-model" />
+		<javaClientGenerator targetPackage="com.mur.mapper.enumrate"
+			targetProject="mur-model" type="XMLMAPPER" />
+		<!--生成对应表及类名 -->
+		<table tableName="ENUMRATE" domainObjectName="Enumrate"
+			enableCountByExample="false" enableUpdateByExample="false"
+			enableDeleteByExample="false" enableSelectByExample="false"
+			selectByExampleQueryId="false"></table>
+	</context>
+</generatorConfiguration>

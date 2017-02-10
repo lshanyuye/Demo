@@ -1,0 +1,17 @@
+#top{
+	height: 40px;
+	background-image: url('../images/top.jpg');
+	font-size: 40px;
+	color: white;
+	text-align: right;
+}
+
+#top a{
+	color:white;
+	margin-top: 4px;
+	
+}
+
+.l-btn-text{
+	font-weight: bold;
+}
